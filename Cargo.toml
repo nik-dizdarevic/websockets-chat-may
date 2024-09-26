@@ -1,0 +1,10 @@
+[package]
+name = "websockets-chat-may"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+websockets = { path = "../websockets" }
+may = "0.3.46"
+bytes = "1.7.2"
+uuid = { version = "1.10.0", features = ["v4", "fast-rng", "macro-diagnostics"] }
